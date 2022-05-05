@@ -1,0 +1,25 @@
+#ifndef buzzer_included
+#define buzzer_included
+
+#define A 55
+#define As 58
+#define B 61
+//#define C 654
+#define Cs 69
+#define D 36
+#define Ds 38
+#define E 41
+#define F 43
+#define Fs 46
+#define G 49
+#define Gs 51
+#define A2 110
+#define A2s 116
+#define B2 123
+#define C3 130
+
+int song_notes[14] = {B, E, G, F, E, B2, A2, Fs, E, G, F, Ds, F, B};
+
+int delay_notes[14] = {1, 1.5, .5, 1, 2, 1, 2.5, 2.5, 1.5, .5, 1, 2, 1, 2.5};
+
+#endif // included
